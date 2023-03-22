@@ -1,3 +1,6 @@
+body{
+    font-family: "Aleo variant0", Tofu;
+}
 .logotam{
     width: 410px;
     height: 110px;
@@ -11,12 +14,56 @@
 }
 
 .t1{
-    margin-top: 20px;
+    margin-top: 35px;
 }
 .p1{
-    padding-top: 31px;
+    display: inline-block;
+    padding-top: 20px;
     padding-left: 5px;
     color: #F43435;
     font-style: italic;
-    font-family: "Aleo variant0", Tofu;
+    text-decoration: none;  
 }
+.color1{
+    display: block;
+    padding: 40px;
+    margin-top: 25px;
+    text-align: center;
+
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background:#322E2E ;
+    width: 100%;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 25px;
+    padding-inline:60px;
+    font-size: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    
+}
+.menu li a:hover{
+    background: #55504e;
+}
+.colorr{
+    display: block;
+    margin: 0px !important;
+    background-color: #F43435;
+    padding: 0px;
+}
+.colorr:hover{
+    background: rgb(254, 137, 137) !important; 
+}
+    
+
+
+
