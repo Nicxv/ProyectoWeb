@@ -1,0 +1,22 @@
+.logotam{
+    width: 410px;
+    height: 110px;
+    text-align: start;
+    padding-top: 25px;
+}
+.img1{
+    text-align: start;
+    width: 35px;
+    height: 35px;
+}
+
+.t1{
+    margin-top: 20px;
+}
+.p1{
+    padding-top: 31px;
+    padding-left: 5px;
+    color: #F43435;
+    font-style: italic;
+    font-family: "Aleo variant0", Tofu;
+}
