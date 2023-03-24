@@ -64,6 +64,23 @@ body{
     background: rgb(254, 137, 137) !important; 
     
 }
+.wasa{
+    display: inline-block;
+    color: white;
+    line-height: 2px;
+    
+}
+.num{
+    
+    color: white;
+    line-height: 10px;
+}
+
+.ti{
+    font-size: 30px;
+    text-align: center;
+    color: #F43435;
+}
     
 
 
