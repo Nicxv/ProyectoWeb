@@ -75,9 +75,27 @@ body{
 }
 
 .ti{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     color: #F43435;
+    padding-bottom: 20px;
+}
+.celulares{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 20px;
+    
+}
+.imageng10{
+    box-shadow: 5px 8px 12px black;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 50px;
+
+}
+.imageng10:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px;
 }
     
 
