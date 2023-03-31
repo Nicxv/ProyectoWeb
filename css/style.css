@@ -1,5 +1,6 @@
 body{
     font-family: "Aleo variant0", Tofu;
+    background-color: white;
 }
 .logotam{
     width: 390px;
@@ -79,6 +80,7 @@ body{
     text-align: center;
     color: #F43435;
     padding-bottom: 20px;
+    text-shadow: 3px 4px 5px #322E2E;
 }
 .celulares{
     display: block;
@@ -88,14 +90,26 @@ body{
 }
 .imageng10{
     box-shadow: 5px 8px 12px black;
-    border-radius: 20px;
+    border-radius: 25px;
     transition: all 0.3s ease-in-out;
     margin-bottom: 50px;
+    width: 350px;
+    height: 400px;
+    margin-top: 20px;
 
 }
 .imageng10:hover{
     transform: scale(1.1);
     box-shadow: 13px 15px 37px;
+    border: 0;
+    
+}
+
+.c{
+    margin: 0px auto;
+}
+.alinear{
+    text-align: center;
 }
     
 
