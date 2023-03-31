@@ -36,7 +36,7 @@ body{
     list-style: none;
     padding: 0;
     background:#322E2E ;
-    width: 100%px;
+    width: 100%;
     
 }
 
@@ -75,51 +75,35 @@ body{
     color: white;
     line-height: 10px;
 }
-
-.ti{
-    font-size: 40px;
+.aln{
     text-align: center;
-    color: #F43435;
-    padding-bottom: 20px;
-    
 }
-.celulares{
-    display: block;
-    font-size: 25px;
-    padding-bottom: 20px;
-    color: white;
-    padding-top: 20px;
-    
+.carro{
+    display: inline-block;
+    align-items: center;
+    background-color: #cac1c1;
+    margin: 0px auto;
 }
-.imageng10{
-    box-shadow: 5px 8px 12px black;
-    border-radius: 25px;
-    transition: all 0.3s ease-in-out;
-    margin-bottom: 50px;
-    width: 330px;
-    height: 370px;
+.texto1{
+    color: #333131;
+    font-size: 40px;
     margin-top: 20px;
 
 }
-.imageng10:hover{
-    transform: scale(1.1);
-    box-shadow: 13px 15px 37px;
-    border: 0;
-    
+.imagen{
+    margin-top: 40px;
 }
+.boton{
+    display: inline-block;
+    padding: 20px;
+    background: #F43435;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
 
-.c{
-    margin: 0px auto;
-    background-image: radial-gradient( rgb(224, 224, 241), rgb(53, 97, 226) );  
 }
-.cc{
-    margin: 0px auto;
-    background-image: linear-gradient(to left, rgb(97, 95, 95), rgb(160, 156, 185));
+.boton:hover{
+    background-color: #f76e6e;
+    color: white;
+    text-decoration: none;
 }
-.alinear{
-    text-align: center;
-}
-    
-
-
-
