@@ -1,71 +1,31 @@
 body{
-    
-    font-family: "Aleo variant0", Tofu;
-    
+    font-family: "Aleo variant0", Tofu !important;
+    background-color: white;
 }
-.logotam{
-    width: 410px;
-    height: 110px;
-    text-align: start;
-    padding-top: 25px;
-}
-.img1{
-    text-align: start;
-    width: 35px;
-    height: 35px;
-}
-
-.t1{
-    margin-top: 35px;
-}
-.p1{
-    display: inline-block;
-    padding-top: 20px;
-    padding-left: 5px;
-    color: #F43435;
-    font-style: italic;
-    text-decoration: none;  
-}
-.color1{
-    display: block;
-    padding: 40px;
-    margin-top: -20px;
+.ajustar1{
     text-align: center;
-
+    padding-top: 30px;
+    
 }
-.menu{
-    list-style: none;
-    padding: 0;
-    background:#322E2E ;
-    width: 100%;
-}
-
-.menu li a{
+.textoedit{
     text-decoration: none;
-    color: white;
-    display: block;
-    padding: 25px;
-    padding-inline:60px;
-    font-size: 20px;
+    color: #F43435;
+    text-transform: uppercase;
+    font-size: 13px;
+    
 }
-.menu li{
+.wasa{
     display: inline-block;
-    text-align: center;
+    color: white;
+    line-height: 2px;
     
 }
-.menu li a:hover{
-    background: #55504e;
-}
-.colorr{
+.num{
     display: block;
-    margin: 0px !important;
-    background-color: #F43435;
-    padding: 0px;
+    color: white;
+    line-height: 10px;
+    margin-left: 40px;
 }
-.colorr:hover{
-    background: rgb(254, 137, 137) !important; 
-}
-    
 
 .formulario{
     position: absolute;
