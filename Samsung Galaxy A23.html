@@ -6,72 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSN Phone</title>
     <!-- CSS Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <div class="container">
-
-        <div class="row">
-            <div class="col-8">
-                <img class="logotam" src="img/logoo.png" alt="log">
-
-            </div>
-            <div class="col-2">
-                <table class="t1">
-                    <tr>
-                        <td><img class="img1" src="img/personaa.png" alt="person"></td>
-                        <td><a class="p1" href="micuenta.html">INGRESAR</a></td>
-                    </tr>
-                </table>
-            </div>
-
-            <div class="col-2">
-                <table class="t1">
-                    <tr>
-                        <td><img class="img1" src="img/carroo.png" alt="car"></td>
-                        <td><a class="p1" href="#">CARRO</a></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-
-        <div class="row color1">
-            <ul class="menu">
-                <li><a class="colorr" href="#">Inicio</a></li>
-                <li><a href="#">Tienda</a></li>
-                <li><a href="#">Samsung</a></li>
-                <li><a href="#">Xiaomi</a></li>
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/RSN.png" alt="logo" width="200" height="60">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color: white; font-size: 17px;" aria-current="page" href="principal.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: white; font-size: 17px;" href="samsung.html">Samsung</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: white; font-size: 17px;" href="xiaomi.html">Xiaomi</a>
+                  </li>
+                </ul>
                 <li><img src="img/WhatsApp.png" width="25" height="25" alt="wsp">
-                    <p class="wasa">Whatsapp</p><br>
-                    <p class="num">+56976435483</p>
-                
+                  <p class="wasa">Whatsapp</p><br>
+                  <p class="num">+56976435483</p>
                 </li>
-         
-           </ul>
-                
+              </div>
+          </nav>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 ajustar1">
+            <img src="img/personaa.png"  width="35" height="35" alt="persona"><br>
+            <a class="textoedit" href="micuenta.html"><b>Ingresar</b> </a>
+          </div>
+
+          <div class="col-md-6 col-sm-6 ajustar1">
+            <img src="img/carroo.png"  width="35" height="35" alt="car"><br>
+            <a class="textoedit" href="carrito.html"> <b>Ver Carro</b> </a>
+          </div>
+          
+          
+        </div>
         </div>
 
-        <div class="row" style="text-align: center;">
-            
-            <div class="col-md-6 col-sm-6">
-                <h3><p>Samsung Galaxy A23</p></h3>
-                <td><img class="imgcc" src="img/sm1.png"></td>
-                
+        
+        
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="detail">
+                    <h4>Samsung Galaxy A23</h4><br>
+                    <img class="imgProduc" src="img/sm1.png" alt="Sin imagen">
+                    <br><br>
+                    <p>PANTALLA : Super AMOLED de 6,6 pulgadasHD+ a 1.560 x 720</p>
+                    <p>PROCESADOR : Qualcomm 680 4G
+                    <p>VERSIONES: Memoria interna128 GBRAM6
+                    <p>CÁMARA FRONTAL : 50 megapíxeles
+                    <p>CÁMARA TRASERA : 12 megapíxeles f/2.0 8 megapíxeles Ultra gran angular
+                    <p>BATERÍA : 5.000 mAh Carga rápida de 25W
+                    <p>SISTEMA OPERATIVO : Android 12
+                    </p>
+                    <br>
+                    <h4>$260.00</h4>
+                    <br>
+                    <br>
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad" name="cantidad" min="1" max="25" required><br><br>
+                    <br>
+                    <br>
+
+
+                    <button class="boton-add">Agregar al carrito</button>
+                    <br>
+                    <br>
+
+
+
+                </div>
+
             </div>
-            
-            <div class="col-md-6 col-sm-6"></div>
-                <h3><p>Samsung Galaxy A23 (A235 / 128 GB / 6 GB / Black)</p></h3>
-                <div><h4>
-                Características:
-                PantallaPLS 6.6" táctil (2408x1080) / 90 HzMemoria interna128 GBRAM6 GBCámara principalEstándar 50.0 MP + Gran angular (Wide angle) 5.0 MP + Macro 2.0 MP + Percepción profundidad (Bokeh) 2.0 MPCámara frontalEstándar 8.0 MPBatería5000 mAhSistema operativoAndroid 12Conectividad celular4G
-                Características avanzadas
-                ProcesadorQualcomm 680 4G [SM6225] (2400 MHz)CPUQualcomm Kryo 265 Gold (Quad core / 2400 MHz) + Qualcomm Kryo 265 Silver (Quad core / 1900 MHz)GPUQualcomm Adreno 610Peso195 g.Tamaño77 x 165 x 8 mm
-                Accesorios
-                Potencia de carga25.0 W.Almacenamiento externomicroSDConector de audífonosSíWi-FiSíGPSSíNFCSíBluetoothSíLector de huellas digitalesSí
-            </div></h4>
-        </div> 
+            <div class="col-md-2"></div>
+
+        </div>
+
+        
+        
+
+        
