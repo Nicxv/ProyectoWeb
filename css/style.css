@@ -1,5 +1,5 @@
 body{
-    font-family: "Aleo variant0", Tofu !important;
+    font-family: "Aleo variant0", Tofu ;
     background-color: white;
 }
 .ajustar1{
@@ -79,8 +79,26 @@ body{
 .alinear{
     text-align: center;
 }
-
+.colorrow{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color: #212529;
+    margin: 0;
+    color: #292e32;
+    padding: 0;
     
+}
+.ajustar2{
+    padding-left: 55px;
+    background-color: rgb(238, 238, 238);
+   
+}
+.tamanotitulo{
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
 
 
 
