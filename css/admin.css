@@ -28,7 +28,6 @@ body{
     line-height: 10px;
     margin-left: 40px;
 }
-
 .ti{
     margin-top: 20px;
     font-size: 40px;
@@ -97,34 +96,3 @@ body{
 .alinear{
     text-align: center;
 }
-.colorrow{
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    background-color: #212529;
-    margin: 0;
-    color: #292e32;
-    padding: 0;
-    
-}
-.ajustar2{
-    padding-left: 55px;
-    background-color: rgb(238, 238, 238);
-   
-}
-.tamanotitulo{
-    margin-top: 20px;
-    font-size: 30px;
-    
-}
-.colorrow2{
-    background-color:  #366cdb;
-    margin: 0px;
-    text-align: center;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: px;
-}
-
-
-
-
