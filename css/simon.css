@@ -139,3 +139,11 @@ input[type="submit"]:hover{
 .registrarse a:hover{
     text-decoration: underline;
 }
+
+.cc{
+    width: 670px;
+    height: 350px;
+    margin: 0px auto;
+   
+    
+}
