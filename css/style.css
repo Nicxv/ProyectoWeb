@@ -57,7 +57,7 @@ body{
 
 .c{
     width: 650px;
-    height: 350px;
+    height: 340px;
     margin: 0px auto;
     background-image: radial-gradient( rgb(77, 139, 246) , rgb(37, 37, 207) );
     margin-bottom: 50px;
@@ -87,7 +87,7 @@ body{
 }
 .cc{
     width: 650px;
-    height: 350px;
+    height: 340px;
     margin: 0px auto;
     background-image: linear-gradient(to left, rgb(97, 95, 95), rgb(160, 156, 185));
     
