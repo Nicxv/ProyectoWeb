@@ -43,8 +43,8 @@ body{
     border-radius: 25px;
     transition: all 0.3s ease-in-out;
     margin-bottom: 50px;
-    width: 260px;
-    height: 300px;
+    width: 240px;
+    height: 280px;
     margin-top: 20px;
 
 }
@@ -61,6 +61,7 @@ body{
     margin: 0px auto;
     background-image: radial-gradient( rgb(77, 139, 246) , rgb(37, 37, 207) );
     margin-bottom: 50px;
+    max-width: 100%;
     
 }
 .c img{
@@ -81,7 +82,7 @@ body{
 .disponible{
     margin: 0;
     color: azure;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 .cc{
