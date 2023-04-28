@@ -36,6 +36,43 @@ body{
 .carousel-indicators{
     background-color: rgb(183, 37, 37);
 }
+.desc{
+    display: inline-block;
+    padding: 7px;
+    background-color: #F43435;
+    border-radius: 15%;
+    color: white;
+}
+.Titulo{
+    color: #464646;
+    text-transform: uppercase; 
+}
+
+.boton-carro{
+    display: inline-block;
+    background-color: #F43435;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-inline: 146px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.boton-comprar{
+    display: inline-block;
+    background-color: #464646;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-inline: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
 
 
 
