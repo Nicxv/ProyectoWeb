@@ -8,94 +8,289 @@
     <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sg.css">
 </head>
 <body>
 
+  <div class="container-fluid" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/RSN.png" alt="logo" width="200" height="60" style="max-width: 100%;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: white; font-size: 17px;" aria-current="page" href="principal.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white; font-size: 17px;" href="samsung.html">Samsung</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white; font-size: 17px;" href="xiaomi.html">Xiaomi</a>
+              </li>
+            </ul>
+            
+          </div>
+      </div>
+    </nav>
     
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="img/RSN.png" alt="logo" width="200" height="60">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" style="color: white; font-size: 17px;" aria-current="page" href="principal.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" style="color: white; font-size: 17px;" href="samsung.html">Samsung</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" style="color: white; font-size: 17px;" href="xiaomi.html">Xiaomi</a>
-                  </li>
-                </ul>
-                <li><img src="img/WhatsApp.png" width="25" height="25" alt="wsp">
-                  <p class="wasa">Whatsapp</p><br>
-                  <p class="num">+56976435483</p>
-                </li>
-              </div>
-          </nav>
-        <div class="row">
-          <div class="col-md-6 col-sm-6 ajustar1">
-            <img src="img/personaa.png"  width="35" height="35" alt="persona"><br>
-            <a class="textoedit" href="micuenta.html"><b>Ingresar</b> </a>
+
+    <div class="row" style="margin-bottom: 30px;">
+      <div class="col-md-6 col-sm-6 ajustar1">
+        <img class="" src="img/personaa.png"  width="35" height="35" alt="persona"><br>
+        <a class="textoedit" href="micuenta.html"><b>Ingresar</b> </a>
+      </div>
+
+      <div class="col-md-6 col-sm-6 ajustar1">
+        <img class="img1" src="img/carroo.png"  width="35" height="35" alt="car"><br>
+        <a class="textoedit" href="carrito.html"> <b>Ver Carro</b> </a>
+      </div>
+      
+      
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div id="carouselExampleIndicators"  class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/sg10,2.png"  class="d-block w-100" alt="samsun">
+            </div>
+            <div class="carousel-item">
+              <img src="img/sg10,1.png"  class="d-block w-100" alt="samsun">
+            </div>
+            <div class="carousel-item">
+              <img src="img/sg10,3.png"  class="d-block w-100" alt="samsun">
+            </div>
+            <div class="carousel-item">
+              <img src="img/sg10,4.png"  class="d-block w-100" alt="samsun">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
           </div>
 
-          <div class="col-md-6 col-sm-6 ajustar1">
-            <img src="img/carroo.png"  width="35" height="35" alt="car"><br>
-            <a class="textoedit" href="carrito.html"> <b>Ver Carro</b> </a>
-          </div>
+      </div>
+
+      <div class="col-md-6 col-sm-12" style="margin: 0px;"> 
+        <p style="margin: 0px; font-size: 13px; line-height: 1.5; margin-top: 50px;" >SAMSUNG</p>
+        <h2 class="Titulo">Samsung Galaxy S10 de 128gb azul</h2>
+        <p style="font-size: 10px;">SKU: 411234</p><br>
+        <table class="table table-responsive table-striped">
+          <thead>
+            <tr>
+              <th>
+                PRECIO
+              </th>
+              <th></th>
+            </tr>
+            
+          </thead>
+          <tbody>
+          <tr>
+            <td>
+              <p>Normal</p>
+            </td>
+
+            <td><del style="color: #727272;">$399.990</del>
+            </td>
+          </tr>
           
+          <tr>
+            <td>
+              <p>Internet</p>
+            </td>
+
+            <td>
+              <p>$259.990</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <p>Descuento</p>
+            </td>
+            <td>
+              <p class="desc">35%</p>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+        <br>
+        
+        <div>
+          <label for="cantidad">Cantidad:</label>
+          <input type="number" id="cantidad" name="cantidad" min="1" max="10" required>
+          <p style="font-size: 10px; text-align: center; margin: 5px; color: #727272;">--Seleccione una cantidad para comprar o añadir al carro--</p>
+          <div style="text-align: center;">
+            <a class="boton-carro" href="#">Agregar al carro</a>
+          </div>
           
         </div>
 
-        
-                
-            </div>
-            
-            <div class="row">
-              <div class="col-md-2"></div>
-              <div class="col-md-8">
-                  <div class="detail">
-                      <h4 style="margin-top: 50px;">Xiaomi Redmi Note 10s</h4><br>
-                      <img class="imgProduc" src="img/xm7.png" alt="Sin imagen">
-                      <br><br>
-                      <p>PANTALLA : Super AMOLED 6.4" táctil</p>
-                      <p>PROCESADOR : MediaTek Helio G95
-                      <p>VERSIONES: Memoria interna128
-                      <p>CÁMARA FRONTAL : 64 megapíxeles
-                      <p>CÁMARA TRASERA : 8.0 megapíxeles f/2.0 8 megapíxeles Ultra gran angular
-                      <p>BATERÍA : 5.000 mAh Carga rápida de 30W
-                      <p>SISTEMA OPERATIVO : Android 11
-                      </p>
-                      <br>
-                      <h4>$210.990</h4>
-                      <br>
-                      <br>
-                      <label for="cantidad">Cantidad:</label>
-                      <input type="number" id="cantidad" name="cantidad" min="1" max="25" required><br><br>
-                      <br>
-                      <br>
-  
-  
-                      <button class="boton-add">Agregar al carrito</button>
-                      <a href="#"><button class="boton-add">Comprar ahora </button></a>
-                      <br>
-                      <br>
-  
-  
-  
-                  </div>
-  
-              </div>
-              <div class="col-md-2"></div>
-  
-          </div>
-  
+        <div style="text-align: center;">
+          <a class="boton-comprar" href="#">Comprar ahora</a>
+        </div>
 
-            
-            
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align: center;">
+
+        <hr>
+        <button id="vr" onclick="mostrar();">Ver especificaciones</button>
+
+        <div id="text">
+
+          
+          <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td>Tipo de Producto</td>
+              <td>Smartphone</td>
+            </tr>
+            <tr>
+              <td>Marca</td>
+              <td>SAMSUNG</td>
+            </tr>
+            <tr>
+              <td>Modelo</td>
+              <td>S10</td>
+            </tr>
+            <tr>
+              <td>Tipo Procesador</td>
+              <td>Exynos</td>
+            </tr>
+            <tr>
+              <td>Modelo Procesador</td>
+              <td>Samsung Exynos</td>
+            </tr>
+            <tr>
+              <td>Velocidad del Procesador</td>
+              <td>2,86GHZ</td>
+            </tr>
+            <tr>
+              <td>Sistema Operativo</td>
+              <td>Android</td>
+            </tr>
+            <tr>
+              <td>Modelo Sistema Operativo</td>
+              <td>Android</td>
+            </tr>
+            <tr>
+              <td>Memoria Interna</td>
+              <td>128 GB</td>
+            </tr>
+            <tr>
+              <td>Memoria expandible</td>
+              <td>Hasta 512 GB</td>
+            </tr>
+            <tr>
+              <td>Memoria RAM</td>
+              <td>8 GB</td>
+            </tr>
+            <tr>
+              <td>Tipo de pantalla</td>
+              <td>QLED</td>
+            </tr>
+            <tr>
+              <td>Tamaño Pantalla Pulgadas</td>
+              <td>6,1</td>
+            </tr>
+            <tr>
+              <td>Cámara</td>
+              <td>si</td>
+            </tr>
+            <tr>
+              <td>Cantidad de cámaras</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Megapixeles Cámara Trasera</td>
+              <td>12MP</td>
+            </tr>
+            <tr>
+              <td>Operador</td>
+              <td>Liberado para todas las compañías</td>
+            </tr>
+            <tr>
+              <td>Conectividad</td>
+              <td>4G / Wi-Fi / Bluetooth</td>
+            </tr>
+            <tr>
+              <td>Lector de huella digital</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>USB</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>Bluetooth</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>NFC</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>GPS</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>Capacidad de la batería</td>
+              <td>3.400 mAh</td>
+            </tr>
+            <tr>
+              <td>Duración Batería (Hr)</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>Resistente al agua</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Peso (gr)</td>
+              <td>0.45</td>
+            </tr>
+            <tr>
+              <td>Condición de producto</td>
+              <td>Reacondicionado</td>
+            </tr>
+          </tbody>
+        </table>
+        <button id="vm" onclick="ocultar();">Ver menos</button>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <script src="js/sg.js"></script>
+
+   <!-- JS Bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  </body>
+  </html>
