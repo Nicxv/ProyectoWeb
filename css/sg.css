@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .ajustar1{
     text-align: center;
@@ -73,6 +74,30 @@ body{
     margin-top: 15px;
     
 }
+#text{
+    display: none;
+    text-align: center;
+
+}
+#vr{
+    background-color: white;
+    color: #464646;
+    padding: 15px;
+    margin: 20px;
+    border-width: 1px;
+    
+}
+
+#vm{
+    background-color: white;
+    color: #464646;
+    padding: 15px;
+    margin: 20px;
+    border-width: 1px;
+    
+
+}
+
 
 
 
