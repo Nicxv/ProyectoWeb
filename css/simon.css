@@ -54,19 +54,21 @@ body{
     opacity: 0.8;
   }
   
-  /* Extra style for the cancel button (red) */
-  .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
+
+.btnbtn-success{
+    color:white;
     background-color: #f44336;
-  }
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    text-decoration: none ;
+}
   
-  /* Center the avatar image inside this container */
-  .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-  }
-  
+.btnbtn-success:hover{
+    color: white;
+}
+
   .ti{
     margin-top: 40px;
     font-size: 40px;
@@ -93,7 +95,5 @@ body{
       display: block;
       float: none;
     }
-    .cancelbtn {
-      width: 100%;
-    }
+    
   }
