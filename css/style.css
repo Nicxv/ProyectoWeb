@@ -14,21 +14,6 @@ body{
     font-size: 13px;
     
 }
-    
-
-.wasa{
-    display: inline-block;
-    color: white;
-    line-height: 2px;
-    
-}
-.num{
-    display: block;
-    color: white;
-    line-height: 10px;
-    margin-left: 40px;
-}
-
 .ti{
     margin-top: 20px;
     font-size: 40px;
