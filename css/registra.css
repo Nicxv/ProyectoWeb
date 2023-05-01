@@ -15,7 +15,7 @@ body{
     
 }
 form{
-    background: #fff;
+    background-image: linear-gradient(to right, rgb(62, 61, 61), rgb(105, 105, 106));
     padding: 40px 0;
     box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
     border-radius: 10px;
@@ -24,6 +24,7 @@ form{
 .form{
     width: 100%;
     margin: auto;
+    background-image: linear-gradient(to right, rgb(62, 61, 61), rgb(105, 105, 106));
 }
 form .grupo{
     position: relative;
@@ -43,7 +44,7 @@ input{
 }
 input:focus{ 
     outline: none;
-    color: #5e5d5d;
+    color: #dcdbdb;
 }
 label{
     color: white;
@@ -59,5 +60,35 @@ input:focus~label,
 input:valid~label{
     top: -30px;
     font-size: 20px;
-    color: #F43435;
+    color:aliceblue;
+}
+.ajustar_cont{
+    max-width: 600px;
+    width: 100%;
+    margin-top: 100px;
+}
+#editarbtn{
+    background-color: #F43435;
+    padding: 10px;
+    width: 100%;
+    max-width: 490px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+h1{
+    color: white;
+}
+
+.warnings{
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+    color: rgb(207, 205, 205);
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    
 }
