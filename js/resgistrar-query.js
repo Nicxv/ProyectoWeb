@@ -26,6 +26,8 @@ $(document).ready(function () {
             msjMostrar += "<br>El nombre debe comenzar con mayúscula.";
             enviar = true;
         }
+        console.log("Validar email")
+        console.log(validarcorreo.test(correo))
         if(!validarcorreo.test(correo)){
             msjMostrar = msjMostrar + "<br>El correo no es válido.";
             enviar = true;
@@ -34,31 +36,36 @@ $(document).ready(function () {
             msjMostrar = msjMostrar + "<br>La contraseña debe tener entre 6 y 15 caracteres.";
             enviar = true;
         }
+        console.log("validar Mayuscula en la contraseña")
+        console.log(contraMayus.test(contra))
         if(!contraMayus.test(contra)){
             msjMostrar = msjMostrar + "<br>La contraseña debe tener por lo menos una letra mayúscula.";
             enviar = true;
         }
+        console.log("Validar minuscula en la contraseña")
+        console.log(contraMinus.test(contra))
         if(!contraMinus.test(contra)){
             msjMostrar = msjMostrar + "<br>La contraseña debe tener por lo menos una letra minúscula.";
             enviar = true;
         }
+        console.log("Validar numero en la contraseña")
+        console.log(contraNum.test(contra))
         if(!contraNum.test(contra)){
             msjMostrar = msjMostrar + "<br>La contraseña debe tener por lo menos un número.";
             enviar = true;
         }
+        console.log("Validar caracter especial en la contraseña")
+        console.log(contraCesp.test(contra))
         if(!contraCesp.test(contra)){
             msjMostrar = msjMostrar + "<br>La contraseña debe tener por lo menos un caracter especial.";
             enviar = true;
         }
 
-
-
-
         if(enviar){
             $("#warnings").html(msjMostrar);
         }
         else{
-            $("#warnings").html("Enviado");
+            $("#warnings").html("Te has registrado con éxito!");
         }
         
       
