@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma de pago</title>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/pagar.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Dirección de Envio</h3>
+
+                <div class="inputBox">
+                    <span>Nombre Completo :</span>
+                    <input type="text" placeholder="Nicolas Valenzuela">
+                </div>
+                <div class="inputBox">
+                    <span>Correo electrónico:</span>
+                    <input type="email" placeholder="scaroca11@gmail.com">
+                </div>
+                <div class="inputBox">
+                    <span>Dirección :</span>
+                    <input type="text" placeholder="Ingresa tu direccion">
+                </div>
+                <div class="inputBox">
+                    <span>Región:</span>
+                    <input type="text" placeholder="Ingresa tu región">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Comuna:</span>
+                        <input type="text" placeholder="Ingresa tu comuna">
+                    </div>
+                    <div class="inputBox">
+                        <span>Codigo Postal :</span>
+                        <input type="text" placeholder="8700000">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Pago</h3>
+
+                <div class="inputBox">
+                    <span>Tarjetas Aceptadas:</span>
+                    <img src="img/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Nombre en la tarjeta :</span>
+                    <input type="text" placeholder="mr. rodrigo vergara">
+                </div>
+                <div class="inputBox">
+                    <span>Número de Tarjeta de Crédito :</span>
+                    <input type="number" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="inputBox">
+                    <span>Mes de caducidad:</span>
+                    <input type="number" min="1" max="12" required placeholder="Enero">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Año de exp :</span>
+                        <input type="number"min="2000" max="2040" required placeholder="2022">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="123">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="Presione para pagar" class="submit-btn">
+
+    </form>
+
+</div>    
+    
+</body>
+</html>
