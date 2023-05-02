@@ -74,6 +74,11 @@ body{
     margin-top: 15px;
     
 }
+
+.boton-comprar:hover{
+    color:white;
+}
+
 #text{
     display: none;
     text-align: center;
