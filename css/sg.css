@@ -15,19 +15,6 @@ body{
     
 }
     
-
-.wasa{
-    display: inline-block;
-    color: white;
-    line-height: 2px;
-    
-}
-.num{
-    display: block;
-    color: white;
-    line-height: 10px;
-    margin-left: 40px;
-}
 .carousel-control-prev-icon{
     background-color: rgb(0, 0, 0);
 }
@@ -35,7 +22,7 @@ body{
     background-color: rgb(0, 0, 0);
 }
 .carousel-indicators{
-    background-color: rgb(183, 37, 37);
+    background-color: white opacity;
 }
 .desc{
     display: inline-block;
@@ -77,6 +64,9 @@ body{
 
 .boton-comprar:hover{
     color:white;
+}
+.boton-carro:hover{
+    color: white;
 }
 
 #text{
