@@ -5,7 +5,6 @@ $(document).ready(function () {
         var correo = $("#email").val();
         var contra = $("#password").val();
         var apellido =  $("#ape").val();
-        var rut = $("#ru").val();
 
         var validarcorreo = /\w+@\w+\.+[a-z]/;
         var contraMayus = /[A-Z]/;
@@ -20,8 +19,16 @@ $(document).ready(function () {
             msjMostrar = msjMostrar + "El nombre debe tener entre 4 y 10 caracteres.";
             enviar = true;
         }
+        if(apellido.trim().length < 4 || apellido.trim().length > 10){
+            msjMostrar = msjMostrar + "<br>El Apellido debe tener entre 4 y 10 caracteres.";
+            enviar = true;
+        }
 
-        var letra = nombre.trim().charAt(0);
+        var letra = apellido.trim().charAt(0);
+        if(!esMayuscula(letra)){
+            msjMostrar += "<br>El nombre debe comenzar con mayúscula.";
+            enviar = true;
+        }
         if(!esMayuscula(letra)){
             msjMostrar += "<br>El nombre debe comenzar con mayúscula.";
             enviar = true;
@@ -84,6 +91,7 @@ $(document).ready(function () {
             return false;
         }
     }
+    
     
     
 
