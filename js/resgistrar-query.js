@@ -15,11 +15,11 @@ $(document).ready(function () {
         let msjMostrar = "";
         let enviar = false;
 
-        if(nombre.trim().length < 4 || nombre.trim().length > 20){
-            msjMostrar = msjMostrar + "El nombre debe tener entre 4 y 20 caracteres.";
+        if(nombre.trim().length < 3 || nombre.trim().length > 20){
+            msjMostrar = msjMostrar + "El nombre debe tener entre 3 y 20 caracteres.";
             enviar = true;
         }
-        if(apellido.trim().length < 4 || apellido.trim().length > 15){
+        if(apellido.trim().length < 3 || apellido.trim().length > 20){
             msjMostrar = msjMostrar + "<br>El Apellido debe tener entre 3 y 20 caracteres.";
             enviar = true;
         }
