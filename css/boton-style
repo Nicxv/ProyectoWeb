@@ -1,0 +1,8 @@
+.btn {
+    background-image: url(paypal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px;
+    color: aliceblue;
+}
