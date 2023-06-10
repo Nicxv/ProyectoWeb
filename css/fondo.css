@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo3.png);
+    background: cover;
+    background-position: center;
+    font-family: sans-serif;
+}

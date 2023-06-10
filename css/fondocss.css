@@ -1,0 +1,14 @@
+p{
+    font-size: 24px;
+    font-family: arial, sans-serif;
+    text-align: justify;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+body{
+    background: url(../img/fondo3.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
