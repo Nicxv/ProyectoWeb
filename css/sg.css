@@ -9,17 +9,17 @@ body{
 
 .textoedit{
     text-decoration: none;
-    color: #F43435;
+    color: rgb(255, 136, 0);
     text-transform: uppercase;
     font-size: 13px;
     
 }
     
 .carousel-control-prev-icon{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(252, 101, 0);
 }
 .carousel-control-next-icon{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(252, 101, 0);
 }
 .carousel-indicators{
     background-color: white opacity;
@@ -27,7 +27,7 @@ body{
 .desc{
     display: inline-block;
     padding: 7px;
-    background-color: #F43435;
+    background-color: rgb(252, 101, 0);
     border-radius: 15%;
     color: white;
 }
@@ -38,7 +38,7 @@ body{
 
 .boton-carro{
     display: inline-block;
-    background-color: #F43435;
+    background-color: rgb(252, 101, 0);
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -51,7 +51,7 @@ body{
 }
 .boton-comprar{
     display: inline-block;
-    background-color: #464646;
+    background-color: rgb(252, 101, 0);
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -63,10 +63,10 @@ body{
 }
 
 .boton-comprar:hover{
-    color:white;
+    color:rgb(255, 136, 0);
 }
 .boton-carro:hover{
-    color: white;
+    color: rgb(255, 136, 0);
 }
 
 #text{
@@ -76,7 +76,7 @@ body{
 }
 #vr{
     background-color: white;
-    color: #464646;
+    color: rgb(252, 101, 0);
     padding: 15px;
     margin: 20px;
     border-width: 1px;
@@ -85,12 +85,16 @@ body{
 
 #vm{
     background-color: white;
-    color: #464646;
+    color: rgb(252, 101, 0);
     padding: 15px;
     margin: 20px;
     border-width: 1px;
     
 
+}
+.centered-img {
+    margin: 0 auto; /* Esto centra horizontalmente la imagen */
+    display: block; /* Esto asegura que la imagen se muestre como un bloque, lo que permite aplicar márgenes automáticamente */
 }
 
 
