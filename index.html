@@ -1,179 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSN Phone</title>
-    <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
-
-    <link rel="stylesheet" href="css/style.css">
+    <title>Analizar y Leer Texto con IA</title>
 </head>
 <body>
+    <h1>Analizar Texto con IA y Leer en Voz Alta</h1>
+    <form id="text-form">
+        <textarea id="text-input" rows="4" cols="50"></textarea><br>
+        <button type="submit">Analizar</button>
+    </form>
+    <button id="read-button">Leer en Voz Alta</button>
+    <div id="results"></div>
+    <audio id="audio-player" controls style="display:none;"></audio>
 
-    <div class="container-fluid " >
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="img/RSN.png" alt="logo" width="200" height="60" style="max-width: 100%;">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" style="color: white; font-size: 17px;" aria-current="page" href="principal.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" style="color: white; font-size: 17px;" href="samsung.html">Samsung</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" style="color: white; font-size: 17px;" href="xiaomi.html">Xiaomi</a>
-                  </li>
-                </ul>
-                
-              </div>
-          </div>
-        </nav>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="estilo.css">
-    <script src="app.js" async></script>
-    <title>Tienda de Relojes | </title>
-</head>
-<body>
-    
-    <section class="contenedor">
-        <!-- Contenedor de elementos -->
-        <div class="contenedor-items">
-            <div class="item">
-                <span class="titulo-item">Samsung Galaxy A03</span>
-                <img src="img/sg1.3.png" alt="" class="img-item">
-                <span class="precio-item">$199.990</span>
-                <button class="boton-item">Agregar al Carrito</button>
-                <a href="Samsung Galaxy A03.html">
-                    <img src="ver.png" width="100px" alt="200">
-                </a>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Samsung Galaxy A22</span>
-                <img src="img/sg2.1.png" alt="" class="img-item">
-                <span class="precio-item">$204.990</span>
-                <button class="boton-item">Agregar al Carrito</button>
-                <a href="Samsung Galaxy A22.html">
-                    <img src="ver.png" width="100px" alt="200">
-                </a>              
-            </div>
-            <div class="item">
-                <span class="titulo-item">Samsung Galaxy A53</span>
-                <img src="img/sg3.3.png" alt="" class="img-item">
-                <span class="precio-item">$210.490</span>
-                <button class="boton-item">Agregar al Carrito</button>
-                <a href="Samsung Galaxy A53.html">
-                    <img src="ver.png" width="100px" alt="200">
-                </a>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Samsung Galaxy A54</span>
-                <img src="img/sg4.1.png" alt="" class="img-item">
-                <span class="precio-item">$210.990</span>
-                <button class="boton-item">Agregar al Carrito</button>
-                <a href="Samsung Galaxy A54.html">
-                    <img src="ver.png" width="100px" alt="200">
-                </a>                
-            </div>
-            <div class="item">
-                <span class="titulo-item">Samsung Galaxy A73</span>
-                <img src="img/sg5.1.png" alt="" class="img-item">
-                <span class="precio-item"> $249.990</span>
-                <button class="boton-item">Agregar al Carrito</button>
-                <a href="Samsung Galaxy A73.html">
-                    <img src="ver.png" width="100px" alt="200">
-                </a>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Samsung Galaxy S23s</span>
-                <img src="img/sg6.1.png" alt="" class="img-item">
-                <span class="precio-item">$260.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-                <a href="Samsung Galaxy S23.html">
-                    <img src="ver.png" width="100px" alt="200">
-                </a>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Samsung Galaxy Z flip4</span>
-                <img src="img/sg7.1.png" alt="" class="img-item">
-                <span class="precio-item">$270.990</span>
-                <button class="boton-item">Agregar al Carrito</button>
-                <a href="Samsung Galaxy Z flip4.html">
-                    <img src="ver.png" width="100px" alt="200">
-                </a>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Samsung Galaxy S10</span>
-                <img src="img/sg11.png" alt="" class="img-item">
-                <span class="precio-item">$$249.990</span>
-                <button class="boton-item">Agregar al Carrito</button>
-                <a href="Samsung Galaxy S10.html">
-                    <img src="ver.png" width="100px" alt="200">
-                </a>
-            </div>
-        </div>
-        <!-- Carrito de Compras -->
-        <div class="carrito" id="carrito">
-            <div class="header-carrito">
-                <h2>Tu Carrito</h2>
-            </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#text-form').on('submit', function(event) {
+                event.preventDefault();
+                var text = $('#text-input').val();
+                $.ajax({
+                    url: 'http://localhost:5000/analyze',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ text: text }),
+                    success: function(response) {
+                        $('#results').html(JSON.stringify(response, null, 2));
+                    }
+                });
+            });
 
-            <div class="carrito-items">
-                <!-- 
-                <div class="carrito-item">
-                    <img src="img/boxengasse.png" width="80px" alt="">
-                    <div class="carrito-item-detalles">
-                        <span class="carrito-item-titulo">Box Engasse</span>
-                        <div class="selector-cantidad">
-                            <i class="fa-solid fa-minus restar-cantidad"></i>
-                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
-                            <i class="fa-solid fa-plus sumar-cantidad"></i>
-                        </div>
-                        <span class="carrito-item-precio">$15.000,00</span>
-                    </div>
-                   <span class="btn-eliminar">
-                        <i class="fa-solid fa-trash"></i>
-                   </span>
-                </div>
-                <div class="carrito-item">
-                    <img src="img/skinglam.png" width="80px" alt="">
-                    <div class="carrito-item-detalles">
-                        <span class="carrito-item-titulo">Skin Glam</span>
-                        <div class="selector-cantidad">
-                            <i class="fa-solid fa-minus restar-cantidad"></i>
-                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
-                            <i class="fa-solid fa-plus sumar-cantidad"></i>
-                        </div>
-                        <span class="carrito-item-precio">$18.000,00</span>
-                    </div>
-                   <button class="btn-eliminar">
-                        <i class="fa-solid fa-trash"></i>
-                   </button>
-                </div>
-                 -->
-            </div>
-            <div class="carrito-total">
-                <div class="fila">
-                    <strong>Tu Total</strong>
-                    <span class="carrito-precio-total">
-                        $120.000,00
-                    </span>
-                </div>
-                <a href="pago2.html"><button class="btn-pagar">Comprar ahora </button></a>
-            </div>
-        </div>
-    </section>
+            $('#read-button').on('click', function() {
+                var text = $('#text-input').val();
+                $.ajax({
+                    url: 'http://localhost:5000/tts',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ text: text }),
+                    success: function() {
+                        $('#audio-player').attr('src', 'http://localhost:5000/tts');
+                        $('#audio-player')[0].load();
+                        $('#audio-player')[0].play();
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>

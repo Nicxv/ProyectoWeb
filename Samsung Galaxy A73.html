@@ -8,9 +8,8 @@
     <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
 
-    <link rel="stylesheet" href="css/sg.css">
-</head>
-<body>
+  <link rel="stylesheet" href="{% static  'css/hu.css'%}">
+
 
   <div class="container-fluid" >
     
@@ -26,14 +25,14 @@
           
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/neee.webp" class="d-block w-50 mx-auto" alt="huevito" style="max-width: 50%;">
+              <img src="{% static 'img/ '%}" class="d-block w-50 mx-auto" alt="huevito" style="max-width: 50%;">
 
             </div>
             <div class="carousel-item">
-              <img src="img/nee.png" class="d-block w-50 mx-auto" alt="huevito" style="max-width: 50%;">
+              <img src="{% static 'img/'%}" class="d-block w-50 mx-auto" alt="huevito" style="max-width: 50%;">
             </div>
             <div class="carousel-item">
-              <img src="img/ñee.png" class="d-block w-50 mx-auto" alt="huevito" style="max-width: 50%;">
+              <img src="{% static 'img/'%}" class="d-block w-50 mx-auto" alt="huevito" style="max-width: 50%;">
             </div>
         </div>
         
@@ -81,7 +80,7 @@
         </div>
 
         <div style="text-align: center;">
-          <a class="boton-comprar" href="pago.html">Comprar ahora</a>
+          <a class="boton-comprar" href="">Comprar ahora</a>
         </div>
 
       </div>
@@ -133,7 +132,7 @@
 
   </div>
 
-  <script src="js/sg.js"></script>
+  <script src="{% static  'js/hu.js' %}" async></script>
 
    <!-- JS Bootstrap -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
