@@ -1,0 +1,23 @@
+.encabezado-img {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .encabezado-img h1 {
+    font-size: 2.5rem;
+    color: var(--colorPrimario);
+  }
+  
+  .card {
+    background-color: #f8f9fa;
+  }
+  
+  .card p {
+    margin-bottom: 30px;
+  }
+  
+  .card p b {
+    font-size: 1.2rem;
+    color: var(--colorPrimario);
+  }
+  
